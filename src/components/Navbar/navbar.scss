@@ -101,7 +101,16 @@
     transform: rotate(-45deg);
   }  
 }
-
+@media screen and (min-width: 768px)
+{
+  .navbar{
+&__links{
+  background-position-x: 62em;
+  background-size: 212vw; 
+}
+  
+}
+}
 @media screen and (min-width: 1024px) {
   .navbar {
     display: flex;
@@ -152,3 +161,4 @@
   }
 
 }
+

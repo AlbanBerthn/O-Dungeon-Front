@@ -31,17 +31,19 @@
         margin-left: auto;
   }
   &__body--link{
-    margin:vars.$gutter ;
-    margin-left: 33%;
+  text-align:center;
+    
+  }
+}
+@media screen and (min-width: 768px){
+.card{
+  
+  &__image--classe{
+    margin-left: 11vw;
   }
 }
 
-
-
-  
-
-  
-
+}
 @media screen and (min-width: 990px){
 
   .card {
@@ -102,12 +104,29 @@
      margin-left: auto;
     }
 
-    &__body--link {
-      margin-left: 0.5rem;
-      margin-bottom: 1rem;
+    &__body{
+      padding-left: 13%;
+      padding-right: 13%;
     }
   
     
   }
 
 }
+@media screen and (min-width: 1224px)
+{
+  .card{
+    border:6px solid transparent
+  }
+}
+@media only screen and (min-width : 1824px) {
+  
+  .card{
+    border:6px solid transparent;
+  
+  &__body--link {
+   text-align: center;
+    }
+  }  
+}
+

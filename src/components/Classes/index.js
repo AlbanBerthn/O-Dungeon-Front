@@ -1,15 +1,19 @@
-// ==npm
+// == Import: npm
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// import PropTypes from 'prop-types';
-// ==components
+
+// == Import: local
+// Composant
 import Card from '../Card';
-// ==Actions
+// Actions
 import { fetchClasses } from '../../actions/classes';
-// ==CSS
+// CSS
 import './classes.scss';
 
+// == Composant
+
 function Classes() {
+  const burgerMenuIsOn = useSelector((state) => state.user.settingsMenu.isOpen);
   const classesList = useSelector((state) => state.classes.classes);
   const dispatch = useDispatch();
   // au montage du composant principal
@@ -22,7 +26,7 @@ function Classes() {
   );
 
   return (
-    <main className="classes">
+    <main className={burgerMenuIsOn ? 'classes--right' : 'classes'}>
       <h1 className="classes__title">Classes</h1>
       <div className="classes__cards">
         { classesList.map((classe) => (
@@ -41,4 +45,5 @@ function Classes() {
   );
 }
 
+// == Export
 export default Classes;

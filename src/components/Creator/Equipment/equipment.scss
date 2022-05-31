@@ -6,6 +6,7 @@
   margin: vars.$gutter * 2;
   &__title {
     margin: vars.$gutter;
+    text-align: center;
   }
   &__paragraphe {
     text-align: left;
@@ -18,4 +19,9 @@
       font-weight: 700;
     }
   }
+}
+@media screen and (min-width: 1824px){
+  .equipment{
+    font-size: x-large;  
+}
 }
