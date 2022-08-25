@@ -1,84 +1,84 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.choices {
-  display: flex;
-  flex-direction: column;
+// .choices {
+//   display: flex;
+//   flex-direction: column;
 
-  &__name, &__race, &__subrace, &__classe, &__background{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  &__label {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: vars.$gutter;
-    width: 150px;
-  }
+//   &__name, &__race, &__subrace, &__classe, &__background{
+//     width: 150px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   &__label {
+//     margin-right: auto;
+//     margin-left: auto;
+//     margin-top: vars.$gutter;
+//     width: 150px;
+//   }
  
-  &__main--title{
-    // margin-top: 12vw;
-    text-align: center;
-    margin-bottom: vars.$gutter;
-    font-family: vars.$policeTitle;
-    font-size: 2.5rem;
-    margin: vars.$gutter * 2;
-   }
-  &__results {
-    display: flex;
-    border: 1px solid black;
-   box-shadow: 1em 0 .4em vars.$colorTitle;
-    padding: vars.$gutter;
-    margin: vars.$gutter *2;
-    padding: vars.$gutter;
-    margin: vars.$gutter *2;
-    &--img {
-      width: 25%;
-    }
-    &--list--item--span {
-      text-transform: uppercase;
-      // color: vars.$colorTitle;
-      padding-left: vars.$gutter;
-    }
-  }
-}
+//   &__main--title{
+//     // margin-top: 12vw;
+//     text-align: center;
+//     margin-bottom: vars.$gutter;
+//     font-family: vars.$policeTitle;
+//     font-size: 2.5rem;
+//     margin: vars.$gutter * 2;
+//    }
+//   &__results {
+//     display: flex;
+//     border: 1px solid black;
+//    box-shadow: 1em 0 .4em vars.$colorTitle;
+//     padding: vars.$gutter;
+//     margin: vars.$gutter *2;
+//     padding: vars.$gutter;
+//     margin: vars.$gutter *2;
+//     &--img {
+//       width: 25%;
+//     }
+//     &--list--item--span {
+//       text-transform: uppercase;
+//       // color: vars.$colorTitle;
+//       padding-left: vars.$gutter;
+//     }
+//   }
+// }
 
 
-@media screen and (min-width: 768px) {
-  .choices__results {
-    display: flex;
-    justify-content: space-around;
-    &--list {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      &--item--span {
-        font-weight: 800;
-        font-family: vars.$policeTitle;
-        text-transform: uppercase;
-        padding-left: vars.$gutter;
-      }
-    }
-  }
-  .choices {
-    &__name, &__race, &__subrace, &__classe, &__background {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    } 
-    &__label {
-      width: 400px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-}
-@media screen and (min-width: 1824px){
-  .choices {
-    font-size: x-large;
+// @media screen and (min-width: 768px) {
+//   .choices__results {
+//     display: flex;
+//     justify-content: space-around;
+//     &--list {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: space-around;
+//       &--item--span {
+//         font-weight: 800;
+//         font-family: vars.$policeTitle;
+//         text-transform: uppercase;
+//         padding-left: vars.$gutter;
+//       }
+//     }
+//   }
+//   .choices {
+//     &__name, &__race, &__subrace, &__classe, &__background {
+//     width: 400px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     } 
+//     &__label {
+//       width: 400px;
+//       margin-left: auto;
+//       margin-right: auto;
+//     }
+//   }
+// }
+// @media screen and (min-width: 1824px){
+//   .choices {
+//     font-size: x-large;
     
-     &__name, &__race, &__subrace, &__classe, &__background {
-    font-size: x-large;
-  }
-}
-}
+//      &__name, &__race, &__subrace, &__classe, &__background {
+//     font-size: x-large;
+//   }
+// }
+// }

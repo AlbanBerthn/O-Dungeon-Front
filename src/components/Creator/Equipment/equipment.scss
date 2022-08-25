@@ -1,27 +1,27 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.equipment {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter * 2;
-  &__title {
-    margin: vars.$gutter;
-    text-align: center;
-  }
-  &__paragraphe {
-    text-align: left;
-    padding: vars.$gutter;
-    margin: vars.$gutter;
-  }
-  &__list--item {
-    margin: vars.$gutter;
-    &--span {
-      font-weight: 700;
-    }
-  }
-}
-@media screen and (min-width: 1824px){
-  .equipment{
-    font-size: x-large;  
-}
-}
+// .equipment {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter * 2;
+//   &__title {
+//     margin: vars.$gutter;
+//     text-align: center;
+//   }
+//   &__paragraphe {
+//     text-align: left;
+//     padding: vars.$gutter;
+//     margin: vars.$gutter;
+//   }
+//   &__list--item {
+//     margin: vars.$gutter;
+//     &--span {
+//       font-weight: 700;
+//     }
+//   }
+// }
+// @media screen and (min-width: 1824px){
+//   .equipment{
+//     font-size: x-large;  
+// }
+// }

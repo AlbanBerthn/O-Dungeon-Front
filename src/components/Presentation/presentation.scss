@@ -1,345 +1,345 @@
-@use 'src/styles/vars';
-.main {
-  margin-top: vars.$gutter * 3;
+// @use 'src/styles/vars';
+// .main {
+//   margin-top: vars.$gutter * 3;
   
-  &__section{
-    position: relative;
-  display: block;
-  }
-  &__section--presentation {  
-    width: 100vw;
-    margin: auto;
-    display: block;
-  }
-  &__right{
-    width: 100vw;
-   margin: auto;
-   display: block;
-  //  position: absolute;
-  }
-  //    position: relative;
+//   &__section{
+//     position: relative;
+//   display: block;
+//   }
+//   &__section--presentation {  
+//     width: 100vw;
+//     margin: auto;
+//     display: block;
+//   }
+//   &__right{
+//     width: 100vw;
+//    margin: auto;
+//    display: block;
+//   //  position: absolute;
+//   }
+//   //    position: relative;
   
-  // }
-  // &__section--presentation--right {  
-  //   width: 100vw;
-  //   margin: auto;
+//   // }
+//   // &__section--presentation--right {  
+//   //   width: 100vw;
+//   //   margin: auto;
   
-  // }
-  // &__section--presentation::before{
-  //   content: "";
-  //   background-image: url(../../assets/images/rodeur.png);
-  //   margin-top: 50vw;
-  //   background-size: cover;
-  //   opacity: 0.5;
-  //   top: 0;
-  //   left: 0;
-  //   bottom: 0;
-  //   right: 0;
-  //   position: absolute;
-  //   z-index: -1;
-  // }
+//   // }
+//   // &__section--presentation::before{
+//   //   content: "";
+//   //   background-image: url(../../assets/images/rodeur.png);
+//   //   margin-top: 50vw;
+//   //   background-size: cover;
+//   //   opacity: 0.5;
+//   //   top: 0;
+//   //   left: 0;
+//   //   bottom: 0;
+//   //   right: 0;
+//   //   position: absolute;
+//   //   z-index: -1;
+//   // }
 
-  &__image {
-    width: 95vw;
-    margin: 2.5vw;  
-    margin-top: 3vw;
-  }
+//   &__image {
+//     width: 95vw;
+//     margin: 2.5vw;  
+//     margin-top: 3vw;
+//   }
 
-  &__section--presentation--title {
-    margin: vars.$gutter *2;
-    text-align: center;
-    font-family: vars.$policeTitle;
-    font-size: 1.5rem;
-  }
+//   &__section--presentation--title {
+//     margin: vars.$gutter *2;
+//     text-align: center;
+//     font-family: vars.$policeTitle;
+//     font-size: 1.5rem;
+//   }
 
-  &__section--presentation--paragraphe {
-    margin: auto 1rem;
-  }
+//   &__section--presentation--paragraphe {
+//     margin: auto 1rem;
+//   }
 
-  &__section--presentation--link--contener {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    text-align: center;
-  }
+//   &__section--presentation--link--contener {
+//     margin-top: 1rem;
+//     margin-left: 1rem;
+//     text-align: center;
+//   }
 
-  // SECTION REGLES
+//   // SECTION REGLES
 
-  &__rules--title {
-    font-family: vars.$policeTitle;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: vars.$gutter * 1.5;
-  }
+//   &__rules--title {
+//     font-family: vars.$policeTitle;
+//     font-size: 1.5rem;
+//     text-align: center;
+//     margin: vars.$gutter * 1.5;
+//   }
 
-  &__rules--paragraphe {
-    margin: auto 1rem;
-  }
+//   &__rules--paragraphe {
+//     margin: auto 1rem;
+//   }
 
-  &__rules--contener {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    text-align: center;
-  }
+//   &__rules--contener {
+//     margin-top: 1rem;
+//     margin-left: 1rem;
+//     text-align: center;
+//   }
 
-  // CARD
+//   // CARD
 
-  &__cards--classes {
+//   &__cards--classes {
 
-    margin: 0.5rem;
-  }
+//     margin: 0.5rem;
+//   }
 
-  &__cards--races {
+//   &__cards--races {
 
-    margin: 0.5rem;
-  }
-  &__random {
-    display: none;
-  }
+//     margin: 0.5rem;
+//   }
+//   &__random {
+//     display: none;
+//   }
 
-  &__random {
-    display: none;
+//   &__random {
+//     display: none;
 
-    &--title {
-      font-family: vars.$policeTitle;
-      font-size: 50px;
-    }
-  }
+//     &--title {
+//       font-family: vars.$policeTitle;
+//       font-size: 50px;
+//     }
+//   }
 
-}
-.main__section::before{
-  content: "";
-    background-image: url(../../assets/images/rodeur.png);
-    margin-top: 70vw;
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-.main__section__right::before{
-  content: "";
-    background-image: url(../../assets/images/rodeur.png);
-    margin-top: 70vw;
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-@media screen and (min-width: 768px)
-{
-  .main__section::before{
-        background-image: url(http://localhost:8080/images/140aed51260be578bd33.png);
-    background-size: 43vw;
-    background-repeat: no-repeat;
-    bottom: 0;
-    content: "";
-    left: 0;
-    margin-top: 55vw;
-    opacity: .5;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    margin-left: -49vw;
-    margin-left: 25vw;
-  }
-}
-@media screen and (min-width: 1024px)
-{
-  .main{
+// }
+// .main__section::before{
+//   content: "";
+//     background-image: url(../../assets/images/rodeur.png);
+//     margin-top: 70vw;
+//     background-size: cover;
+//     opacity: 0.5;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;
+// }
+// .main__section__right::before{
+//   content: "";
+//     background-image: url(../../assets/images/rodeur.png);
+//     margin-top: 70vw;
+//     background-size: cover;
+//     opacity: 0.5;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;
+// }
+// @media screen and (min-width: 768px)
+// {
+//   .main__section::before{
+//         background-image: url(http://localhost:8080/images/140aed51260be578bd33.png);
+//     background-size: 43vw;
+//     background-repeat: no-repeat;
+//     bottom: 0;
+//     content: "";
+//     left: 0;
+//     margin-top: 55vw;
+//     opacity: .5;
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//     z-index: -1;
+//     margin-left: -49vw;
+//     margin-left: 25vw;
+//   }
+// }
+// // @media screen and (min-width: 1024px)
+// // {
+// //   .main{
 
-    &__section{
-      margin-top: 1rem;
-      width: 90%;
-      height: 500px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: rgba(146, 114, 19, 0.979);
-      // color: #FFD700;
-      margin: vars.$gutter;
-      margin-left: auto;
-      margin-right: auto;     
-    }
+// //     &__section{
+// //       margin-top: 1rem;
+// //       width: 90%;
+// //       height: 500px;
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       justify-content: space-between;
+// //       background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
+// //       background-size: cover;
+// //       background-repeat: no-repeat;
+// //       color: rgba(146, 114, 19, 0.979);
+// //       // color: #FFD700;
+// //       margin: vars.$gutter;
+// //       margin-left: auto;
+// //       margin-right: auto;     
+// //     }
   
 
-    // SECTION DE GAUCHE (presentation)
+// //     // SECTION DE GAUCHE (presentation)
 
-    &__section--presentation {
-      width:45%;
-      display: flex;
-      flex-wrap: wrap;
-      // border: solid 1px black;
-      background-color: rgba($color: #494545, $alpha: 0.2);
-      font-weight: 500;
-      position: relative;
-    }
-    &__section--presentation--right {
-      width:45%;
-      display: flex;
-      flex-wrap: wrap;
-      // border: solid 1px black;
-      background-color: rgba($color: #494545, $alpha: 0.2);
-      font-weight: 500;
-      position: relative;
-    }
+// //     &__section--presentation {
+// //       width:45%;
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       // border: solid 1px black;
+// //       background-color: rgba($color: #494545, $alpha: 0.2);
+// //       font-weight: 500;
+// //       position: relative;
+// //     }
+// //     &__section--presentation--right {
+// //       width:45%;
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       // border: solid 1px black;
+// //       background-color: rgba($color: #494545, $alpha: 0.2);
+// //       font-weight: 500;
+// //       position: relative;
+// //     }
     
 
-    &__image {
-      display: block;
-      width: 40%;
-      height: 30%;
-      margin: 0;
-      display: none;
-    } 
+// //     &__image {
+// //       display: block;
+// //       width: 40%;
+// //       height: 30%;
+// //       margin: 0;
+// //       display: none;
+// //     } 
 
-    &__section--presentation--title{
-      width: 100%;
-      font-size: 2em;
-      text-align: center;
-      // margin-left: vars.$gutter * 2;
-    }
+// //     &__section--presentation--title{
+// //       width: 100%;
+// //       font-size: 2em;
+// //       text-align: center;
+// //       // margin-left: vars.$gutter * 2;
+// //     }
 
-    &__section--presentation--paragraphe{
-      width: 100%;
-      font-size: 1rem;
-      margin-top: 1rem;
-    }
+// //     &__section--presentation--paragraphe{
+// //       width: 100%;
+// //       font-size: 1rem;
+// //       margin-top: 1rem;
+// //     }
 
-    &__section--presentation--link {
-      font-style: oblique;
-      // text-align: center;
+// //     &__section--presentation--link {
+// //       font-style: oblique;
+// //       // text-align: center;
 
-      &--contener {
-        width: 100%;
-        text-align: center;
-        margin: vars.$gutter;
-      }
-    }
+// //       &--contener {
+// //         width: 100%;
+// //         text-align: center;
+// //         margin: vars.$gutter;
+// //       }
+// //     }
     
-    // Section de Droite (rules)
-    &__rules {
-      width: 45%;
-      height: 464px;
-      margin: auto;
-      // border: solid 1px black;
-      // margin-right: 1.5rem;
-      background-color: rgba($color: #494545, $alpha: 0.2);
-      font-weight: 500;
-      &--title {
-        width: 90%;
-        font-size: 2em;
-        text-align: center;
-        margin-bottom: vars.$gutter * 3;
-      }
+// //     // Section de Droite (rules)
+// //     &__rules {
+// //       width: 45%;
+// //       height: 464px;
+// //       margin: auto;
+// //       // border: solid 1px black;
+// //       // margin-right: 1.5rem;
+// //       background-color: rgba($color: #494545, $alpha: 0.2);
+// //       font-weight: 500;
+// //       &--title {
+// //         width: 90%;
+// //         font-size: 2em;
+// //         text-align: center;
+// //         margin-bottom: vars.$gutter * 3;
+// //       }
 
-      &--paragraphe {
-      margin-top:3.5rem;
+// //       &--paragraphe {
+// //       margin-top:3.5rem;
 
-      }
+// //       }
 
-    }
+// //     }
 
-    // Cartes des races et classes
-    &__random {
-      margin-top: 3rem;
-      display:block ;
-      position: relative;
-    }
+// //     // Cartes des races et classes
+// //     &__random {
+// //       margin-top: 3rem;
+// //       display:block ;
+// //       position: relative;
+// //     }
 
-    &__random--classes {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-bottom: 3rem;
-      position: relative;
-    }
-    &__random::before{
-      content: "";
-      background-image: url(../../assets/images/rodeur.png);
-      background-repeat: no-repeat;
-      background-size: 55vw;
-      bottom: 0;
-      content: "";
-      left: 0;
-      margin-left: 22vw;
-      margin-top: 10vw;
-      opacity: .5;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: -1;
-    }
+// //     &__random--classes {
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       justify-content: space-around;
+// //       margin-bottom: 3rem;
+// //       position: relative;
+// //     }
+// //     &__random::before{
+// //       content: "";
+// //       background-image: url(../../assets/images/rodeur.png);
+// //       background-repeat: no-repeat;
+// //       background-size: 55vw;
+// //       bottom: 0;
+// //       content: "";
+// //       left: 0;
+// //       margin-left: 22vw;
+// //       margin-top: 10vw;
+// //       opacity: .5;
+// //       position: absolute;
+// //       right: 0;
+// //       top: 0;
+// //       z-index: -1;
+// //     }
     
 
-    &__random--races {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-bottom: 1rem;
-    }
+// //     &__random--races {
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       justify-content: space-around;
+// //       margin-bottom: 1rem;
+// //     }
 
      
-  }
+// //   }
 
-}
-@media screen and (min-width:1440px) {
-  .main__rules {
-  height: 368px;
+// // }
+// // @media screen and (min-width:1440px) {
+// //   .main__rules {
+// //   height: 368px;
 
-  }
-  .main{
-    &__section__right{
-      margin-top: 1rem;
-      width: 90%;
-      height: 500px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: rgba(146, 114, 19, 0.979);
-      // color: #FFD700;
-      margin: vars.$gutter;
-      margin-left: auto;
-      margin-right: auto;     
-    }
-  }
-}
-@media screen and (min-width : 1824px) {
-.main{
-  &__random::before{
-    margin-top: -5vw;
-    margin-left: 30vw;
-    background-size: 45vw;
-  }
-  &__section__right{
-    margin-top: 1rem;
-    width: 90%;
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgba(146, 114, 19, 0.979);
-    // color: #FFD700;
-    margin: vars.$gutter;
-    margin-left: auto;
-    margin-right: auto;     
-  }
-}
+// //   }
+// //   .main{
+// //     &__section__right{
+// //       margin-top: 1rem;
+// //       width: 90%;
+// //       height: 500px;
+// //       display: flex;
+// //       flex-wrap: wrap;
+// //       justify-content: space-between;
+// //       background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
+// //       background-size: cover;
+// //       background-repeat: no-repeat;
+// //       color: rgba(146, 114, 19, 0.979);
+// //       // color: #FFD700;
+// //       margin: vars.$gutter;
+// //       margin-left: auto;
+// //       margin-right: auto;     
+// //     }
+// //   }
+// // }
+// // @media screen and (min-width : 1824px) {
+// // .main{
+// //   &__random::before{
+// //     margin-top: -5vw;
+// //     margin-left: 30vw;
+// //     background-size: 45vw;
+// //   }
+// //   &__section__right{
+// //     margin-top: 1rem;
+// //     width: 90%;
+// //     height: 500px;
+// //     display: flex;
+// //     flex-wrap: wrap;
+// //     justify-content: space-between;
+// //     background-image: url('../../assets/images/druid-g4a26deb11_640.jpg');
+// //     background-size: cover;
+// //     background-repeat: no-repeat;
+// //     color: rgba(146, 114, 19, 0.979);
+// //     // color: #FFD700;
+// //     margin: vars.$gutter;
+// //     margin-left: auto;
+// //     margin-right: auto;     
+// //   }
+// // }
 
-}
+// // }

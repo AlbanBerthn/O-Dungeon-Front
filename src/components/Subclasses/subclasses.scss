@@ -1,56 +1,56 @@
-@use '../../styles/vars';
+// @use '../../styles/vars';
 
-.subclasses {
+// .subclasses {
 
-  &__img {
-    display:block;
-    width: 260px;
-    height: 90%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  &__mainclass--title {
-    margin-left: vars.$gutter;
-    font-family: vars.$policeTitle;
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  &__paragraphe{
-    margin-left: vars.$gutter;
-    margin-right: vars.$gutter;
-    margin-top: vars.$gutter;
-  }
-  &__title{
-    text-align: center;
-    font-family: vars.$policeTitle;
-    font-size: 2rem;
-    margin: vars.$gutter * 2;
-  }
-  &__presentation--title{
-    margin-top: vars.$gutter;
-    margin-bottom:vars.$gutter ;
-    text-align: center;
-    font-weight: 400;
-    font-family: vars.$policeTitle;
-  }
-  &__presentation--descritpion{
-    margin-right: vars.$gutter;
-    margin-left: vars.$gutter
+//   &__img {
+//     display:block;
+//     width: 260px;
+//     height: 90%;
+//     margin-top: 15%;
+//     margin-bottom: 15%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   &__mainclass--title {
+//     margin-left: vars.$gutter;
+//     font-family: vars.$policeTitle;
+//     text-align: center;
+//     font-size: 2.5rem;
+//   }
+//   &__paragraphe{
+//     margin-left: vars.$gutter;
+//     margin-right: vars.$gutter;
+//     margin-top: vars.$gutter;
+//   }
+//   &__title{
+//     text-align: center;
+//     font-family: vars.$policeTitle;
+//     font-size: 2rem;
+//     margin: vars.$gutter * 2;
+//   }
+//   &__presentation--title{
+//     margin-top: vars.$gutter;
+//     margin-bottom:vars.$gutter ;
+//     text-align: center;
+//     font-weight: 400;
+//     font-family: vars.$policeTitle;
+//   }
+//   &__presentation--descritpion{
+//     margin-right: vars.$gutter;
+//     margin-left: vars.$gutter
     
-  }
-}
+//   }
+// }
 
-@media screen and (min-width: 1024px) {
-  .subclasses {
-    &__img {
-      width: 500px;
-      margin-top:1rem;
-      margin-bottom: 1rem;
-    }
-    &__mainclass--title {
-      margin-top: 3rem;
-    }
-  }
-}
+// @media screen and (min-width: 1024px) {
+//   .subclasses {
+//     &__img {
+//       width: 500px;
+//       margin-top:1rem;
+//       margin-bottom: 1rem;
+//     }
+//     &__mainclass--title {
+//       margin-top: 3rem;
+//     }
+//   }
+// }

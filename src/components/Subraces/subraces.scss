@@ -1,69 +1,69 @@
-@use '../../styles/vars';
+// @use '../../styles/vars';
 
-.subraces{
-  &__mainclass--title{
-    // display: initial;
-    // margin-left: vars.$gutter;
-    text-align: center;
-    font-family: vars.$policeTitle;
-    font-size: 2.5rem;
-  }
-  &__img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 260px;
-    height: 90%;
-    margin-top: 25%;
-    margin-bottom: 15%;
-  }
-  &__mainclass--description{
-    margin-left: vars.$gutter;
-    margin-right: vars.$gutter;
-    margin-top: vars.$gutter;
-  }
-  &__title{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: vars.$policeTitle;
-    margin: vars.$gutter;
-  }
-  &__presentation--name{
-    text-align: center;
-    font-weight: 600;
-    margin-top: vars.$gutter;
-  }
-  &__presentation--description{
-    margin-top: vars.$gutter;
-    margin-left: vars.$gutter;
-    margin-right: vars.$gutter;
-  }
-  &__presentation--trait{
-    margin-top: vars.$gutter;
-    margin-left: vars.$gutter;
-    margin-right: vars.$gutter;
-  }
-  &__presentation--caracteristics--element{
-    margin-top: vars.$gutter;
-    text-align: center;
+// .subraces{
+//   &__mainclass--title{
+//     // display: initial;
+//     // margin-left: vars.$gutter;
+//     text-align: center;
+//     font-family: vars.$policeTitle;
+//     font-size: 2.5rem;
+//   }
+//   &__img {
+//     display: block;
+//     margin-right: auto;
+//     margin-left: auto;
+//     width: 260px;
+//     height: 90%;
+//     margin-top: 25%;
+//     margin-bottom: 15%;
+//   }
+//   &__mainclass--description{
+//     margin-left: vars.$gutter;
+//     margin-right: vars.$gutter;
+//     margin-top: vars.$gutter;
+//   }
+//   &__title{
+//     text-align: center;
+//     font-size: 1.5rem;
+//     font-family: vars.$policeTitle;
+//     margin: vars.$gutter;
+//   }
+//   &__presentation--name{
+//     text-align: center;
+//     font-weight: 600;
+//     margin-top: vars.$gutter;
+//   }
+//   &__presentation--description{
+//     margin-top: vars.$gutter;
+//     margin-left: vars.$gutter;
+//     margin-right: vars.$gutter;
+//   }
+//   &__presentation--trait{
+//     margin-top: vars.$gutter;
+//     margin-left: vars.$gutter;
+//     margin-right: vars.$gutter;
+//   }
+//   &__presentation--caracteristics--element{
+//     margin-top: vars.$gutter;
+//     text-align: center;
 
-  }
-  &__presentation--span {
-    font-weight: 600;
-  }
-}
-@media  screen and (min-width: 1024px){
-  .subraces {
-    margin-left: vars.$gutter * 1.5;
-    margin-right: vars.$gutter * 1.5;
-    &__img {
-      width: 500px;
-      margin-top: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    &__mainclass--title {
-      margin-top: 3rem;
-    }
-  }
-}
+//   }
+//   &__presentation--span {
+//     font-weight: 600;
+//   }
+// }
+// @media  screen and (min-width: 1024px){
+//   .subraces {
+//     margin-left: vars.$gutter * 1.5;
+//     margin-right: vars.$gutter * 1.5;
+//     &__img {
+//       width: 500px;
+//       margin-top: 1.5rem;
+//       margin-bottom: 2rem;
+//     }
+//     &__mainclass--title {
+//       margin-top: 3rem;
+//     }
+//   }
+// }
 

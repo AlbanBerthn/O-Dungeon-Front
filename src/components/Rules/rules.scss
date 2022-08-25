@@ -1,163 +1,163 @@
-@use 'src/styles/vars';
+// @use 'src/styles/vars';
 
-.rules{
-  &__section--presentation{
-    margin-top: 7em;
-    display: block;
-    position: relative;
+// .rules{
+//   &__section--presentation{
+//     margin-top: 7em;
+//     display: block;
+//     position: relative;
     
-  }
-  &__section--presentation::before{
-    content: "";
-    background-image: url(../../assets/images/elfe.png);
-    margin-top: 50vw;
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-  &__title{
-    font-family: vars.$policeTitle;
-    font-size: 2.5rem;
-    text-align: center;    
-  }
-  &__paragraph__title{
-    font-size: 1.5rem;
-    font-family: vars.$policeTitle;
-    text-align: center;
-    margin: vars.$gutter * 2;
-    // margin: auto;
-    // margin-top: 2em;
-    // margin-bottom: 1.5em;
-  }
-  &__paragraph{
-    font-size: 1.2em;
-    margin: auto;
-    width: 80%;
-  }
-}
+//   }
+//   &__section--presentation::before{
+//     content: "";
+//     background-image: url(../../assets/images/elfe.png);
+//     margin-top: 50vw;
+//     background-size: cover;
+//     opacity: 0.5;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;
+//   }
+//   &__title{
+//     font-family: vars.$policeTitle;
+//     font-size: 2.5rem;
+//     text-align: center;    
+//   }
+//   &__paragraph__title{
+//     font-size: 1.5rem;
+//     font-family: vars.$policeTitle;
+//     text-align: center;
+//     margin: vars.$gutter * 2;
+//     // margin: auto;
+//     // margin-top: 2em;
+//     // margin-bottom: 1.5em;
+//   }
+//   &__paragraph{
+//     font-size: 1.2em;
+//     margin: auto;
+//     width: 80%;
+//   }
+// }
 
 
-@media screen and (min-width: 990px)
-{
-main {
-    // margin-top: 8rem;
-    text-align: center;
-}
+// @media screen and (min-width: 990px)
+// {
+// main {
+//     // margin-top: 8rem;
+//     text-align: center;
+// }
 
-.rules{
-  &__titles{
-    font-size: 2em;
-  }
-  &__paragraph__title{
-    font-size: 1.5em;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
-  }
-  &__paragraph{
-    font-size: 1.5em;
-    margin: auto;
-    width: 80%;
-  }
-  &__section--presentation{
-    margin-top: 7em;
-    display: block;
-    position: relative;
+// .rules{
+//   &__titles{
+//     font-size: 2em;
+//   }
+//   &__paragraph__title{
+//     font-size: 1.5em;
+//     margin: auto;
+//     margin-top: 2em;
+//     margin-bottom: 1.5em;
+//   }
+//   &__paragraph{
+//     font-size: 1.5em;
+//     margin: auto;
+//     width: 80%;
+//   }
+//   &__section--presentation{
+//     margin-top: 7em;
+//     display: block;
+//     position: relative;
     
-  }
-  &__section--presentation--right{
-    margin-top: 7em;
-    display: block;
-    position: relative;
+//   }
+//   &__section--presentation--right{
+//     margin-top: 7em;
+//     display: block;
+//     position: relative;
     
     
-  }
-  &__section--presentation::before{
-    content: "";
-    background-image: url(../../assets/images/elfe.png);
-    margin-top: 5vw;
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+//   }
+//   &__section--presentation::before{
+//     content: "";
+//     background-image: url(../../assets/images/elfe.png);
+//     margin-top: 5vw;
+//     background-size: cover;
+//     opacity: 0.5;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;
     
-  }
-  &__section--presentation--right::before{
-    content: "";
-    background-image: url(../../assets/images/elfe.png);
-    margin-top: 5vw;
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+//   }
+//   &__section--presentation--right::before{
+//     content: "";
+//     background-image: url(../../assets/images/elfe.png);
+//     margin-top: 5vw;
+//     background-size: cover;
+//     opacity: 0.5;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;
     
-  }
-}
-}
-@media screen and (min-width:768px)
-{
-  .rules{
-    &__section--presentation::before{
-      margin-top:-17vw;
-    }
-  }
+//   }
+// }
+// }
+// @media screen and (min-width:768px)
+// {
+//   .rules{
+//     &__section--presentation::before{
+//       margin-top:-17vw;
+//     }
+//   }
   
-}
-@media screen and (min-width:1824px)
-{
-  .rules{
-  &__section--presentation--right::before {
-    background-repeat: no-repeat;
-    background-size: 30vw;
-    margin-top: -5vw;
-  }
+// }
+// @media screen and (min-width:1824px)
+// {
+//   .rules{
+//   &__section--presentation--right::before {
+//     background-repeat: no-repeat;
+//     background-size: 30vw;
+//     margin-top: -5vw;
+//   }
   
-    &__section--presentation::before {
-      background-repeat: no-repeat;
-      background-size: 30vw;
-      margin-top: -5vw;
-    }
-    &__section--presentation::before{
-      content: "";
-      background-image: url(../../assets/images/elfe.png);
-      margin-top: -15vw;
-      background-size: 35vw;
-      opacity: 0.5;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      position: absolute;
-      z-index: -1;
+//     &__section--presentation::before {
+//       background-repeat: no-repeat;
+//       background-size: 30vw;
+//       margin-top: -5vw;
+//     }
+//     &__section--presentation::before{
+//       content: "";
+//       background-image: url(../../assets/images/elfe.png);
+//       margin-top: -15vw;
+//       background-size: 35vw;
+//       opacity: 0.5;
+//       top: 0;
+//       left: 0;
+//       bottom: 0;
+//       right: 0;
+//       position: absolute;
+//       z-index: -1;
       
-    }
-    &__section--presentation--right::before{
-      content: "";
-      background-image: url(../../assets/images/elfe.png);
-      margin-top: -15vw;
-      background-size: 35vw;
-      opacity: 0.5;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      position: absolute;
-      z-index: -1;
+//     }
+//     &__section--presentation--right::before{
+//       content: "";
+//       background-image: url(../../assets/images/elfe.png);
+//       margin-top: -15vw;
+//       background-size: 35vw;
+//       opacity: 0.5;
+//       top: 0;
+//       left: 0;
+//       bottom: 0;
+//       right: 0;
+//       position: absolute;
+//       z-index: -1;
       
-    }
+//     }
 
-}
-}
+// }
+// }

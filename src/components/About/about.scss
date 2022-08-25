@@ -1,65 +1,65 @@
-@use 'src/styles/vars';
+// @use 'src/styles/vars';
 
-.about {
-  &__title {
-    font-family: vars.$policeTitle;
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: vars.$gutter;
-  }
-  &__paragraphe {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: vars.$gutter;
-    &--span {
-      font-family: vars.$policeTitle;
-      font-weight: 800;
-      color: vars.$colorTitle;
-      font-size: 1.2rem;
-    }
-  }
-  &__list {
-    &--subtitle {
-      font-family: vars.$policeTitle;
-      font-size: 1.2rem;
-    }
-    &--item {
-      margin-top: vars.$gutter;
-    }
-    &--span {
-      font-weight: 800;
-      color: vars.$colorTitle;
-    }
-  }
-  &__secondList, &__thirdList {
-    margin-top: vars.$gutter;
-    &--item {
-      margin-top: vars.$gutter;
-    }
-  }
-}
+// .about {
+//   &__title {
+//     font-family: vars.$policeTitle;
+//     font-size: 2rem;
+//     text-align: center;
+//     margin-bottom: vars.$gutter;
+//   }
+//   &__paragraphe {
+//     width: 90%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     margin-top: vars.$gutter;
+//     &--span {
+//       font-family: vars.$policeTitle;
+//       font-weight: 800;
+//       color: vars.$colorTitle;
+//       font-size: 1.2rem;
+//     }
+//   }
+//   &__list {
+//     &--subtitle {
+//       font-family: vars.$policeTitle;
+//       font-size: 1.2rem;
+//     }
+//     &--item {
+//       margin-top: vars.$gutter;
+//     }
+//     &--span {
+//       font-weight: 800;
+//       color: vars.$colorTitle;
+//     }
+//   }
+//   &__secondList, &__thirdList {
+//     margin-top: vars.$gutter;
+//     &--item {
+//       margin-top: vars.$gutter;
+//     }
+//   }
+// }
 
-.purpose {
-  margin-top: vars.$gutter;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+// .purpose {
+//   margin-top: vars.$gutter;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 90%;
 
-  &__subtitle {
-    font-family: vars.$policeTitle;
-    font-size: 1.2rem;
-    text-align: center;
-  }
+//   &__subtitle {
+//     font-family: vars.$policeTitle;
+//     font-size: 1.2rem;
+//     text-align: center;
+//   }
 
-  &__paragraphe {
-    margin-top: vars.$gutter;
+//   &__paragraphe {
+//     margin-top: vars.$gutter;
 
-    &--span {
-      font-family: vars.$policeTitle;
-      font-weight: 800;
-      color: vars.$colorTitle;
-      font-size: 1.2rem;
-    }
-  }
-}
+//     &--span {
+//       font-family: vars.$policeTitle;
+//       font-weight: 800;
+//       color: vars.$colorTitle;
+//       font-size: 1.2rem;
+//     }
+//   }
+// }

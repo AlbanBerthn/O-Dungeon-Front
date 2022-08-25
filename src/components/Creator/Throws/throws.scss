@@ -1,27 +1,27 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.throws {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter * 2 ;
-  padding: vars.$gutter;
-  &__title {
-    margin-bottom: vars.$gutter;
-    text-align: center;
-  }
-  &__div {
-    display: flex;
-    justify-content: space-around;
-    &--left {
-      text-align: left;
-    }
-    &--right {
-      text-align: right;
-    }
-  }
-}
-@media screen and (min-width: 1824px){
-  .throws{
-    font-size: x-large;  
-}
-}
+// .throws {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter * 2 ;
+//   padding: vars.$gutter;
+//   &__title {
+//     margin-bottom: vars.$gutter;
+//     text-align: center;
+//   }
+//   &__div {
+//     display: flex;
+//     justify-content: space-around;
+//     &--left {
+//       text-align: left;
+//     }
+//     &--right {
+//       text-align: right;
+//     }
+//   }
+// }
+// @media screen and (min-width: 1824px){
+//   .throws{
+//     font-size: x-large;  
+// }
+// }

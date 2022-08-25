@@ -1,17 +1,17 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.languages {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter * 2;
-  padding: vars.$gutter;
-  &__title {
-    font-family: vars.$policeTitle;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1824px){
-  .languages{
-    font-size: x-large;  
-}
-}
+// .languages {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter * 2;
+//   padding: vars.$gutter;
+//   &__title {
+//     font-family: vars.$policeTitle;
+//     text-align: center;
+//   }
+// }
+// @media screen and (min-width: 1824px){
+//   .languages{
+//     font-size: x-large;  
+// }
+// }

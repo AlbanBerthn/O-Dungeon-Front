@@ -1,19 +1,19 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.traits {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter * 2;
-  padding: vars.$gutter;
-  &--title{
-    text-align: center;
-  }
-  &__paragraphe {
-    text-align: left;
-    padding: vars.$gutter;
-    &--list {
-      padding: vars.$gutter;
-    }
+// .traits {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter * 2;
+//   padding: vars.$gutter;
+//   &--title{
+//     text-align: center;
+//   }
+//   &__paragraphe {
+//     text-align: left;
+//     padding: vars.$gutter;
+//     &--list {
+//       padding: vars.$gutter;
+//     }
     
-  }
-}
+//   }
+// }

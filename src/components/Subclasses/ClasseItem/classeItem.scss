@@ -1,26 +1,26 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.items{
-    margin-left: vars.$gutter*0.5;
-    margin-right: vars.$gutter*0.5;
-    margin-top: vars.$gutter;
-    &__spec{
-      margin: vars.$gutter*1.2;
-    }
-    &__title{
-      text-align: center;
-      font-weight: 600;
+// .items{
+//     margin-left: vars.$gutter*0.5;
+//     margin-right: vars.$gutter*0.5;
+//     margin-top: vars.$gutter;
+//     &__spec{
+//       margin: vars.$gutter*1.2;
+//     }
+//     &__title{
+//       text-align: center;
+//       font-weight: 600;
       
-    }
-    &__dices{
-      margin: vars.$gutter*2;
-    }
-    &__weapon--title, &__armor--title, &__items--title{
-      text-align: center;
-      font-weight: 600;
-      font-size: 1.5rem;
-    }
-    &__result--span {
-      font-weight: 800;
-    }
-}
+//     }
+//     &__dices{
+//       margin: vars.$gutter*2;
+//     }
+//     &__weapon--title, &__armor--title, &__items--title{
+//       text-align: center;
+//       font-weight: 600;
+//       font-size: 1.5rem;
+//     }
+//     &__result--span {
+//       font-weight: 800;
+//     }
+// }

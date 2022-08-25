@@ -1,32 +1,32 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.caracteristics__capacities {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter *2;
-  &--title {
-    margin: vars.$gutter;
-  }
-  &__title{
-    text-align: center;
-  }
-}
-.capacities {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.capacities div {
-  padding: vars.$gutter;
-}
+// .caracteristics__capacities {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter *2;
+//   &--title {
+//     margin: vars.$gutter;
+//   }
+//   &__title{
+//     text-align: center;
+//   }
+// }
+// .capacities {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-start;
+// }
+// .capacities div {
+//   padding: vars.$gutter;
+// }
 
-@media screen and (min-width: 1824px){
-  .capacities{
-    font-size: x-large;
-  }
- .caracteristics{
-   &__capacities__title{
-     font-size: x-large;
-   }
-}
-}
+// @media screen and (min-width: 1824px){
+//   .capacities{
+//     font-size: x-large;
+//   }
+//  .caracteristics{
+//    &__capacities__title{
+//      font-size: x-large;
+//    }
+// }
+// }

@@ -1,48 +1,48 @@
-@use '../../../styles/vars';
+// @use '../../../styles/vars';
 
-.inspiration {
-  border: 1px solid black;
-  box-shadow: 1em 0 .4em vars.$colorTitle;
-  margin: vars.$gutter * 2 ;
-  padding: vars.$gutter;
-  display: flex;
-  flex-direction: column;
-  &__select {
-    width: 50%;
-    margin: vars.$gutter;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  &__paragraphe {
-    text-align: left;
-    width: 90%;
-  }
-  &__title {
-    padding-top: vars.$gutter;
-  }
-}
-@media screen and (min-width: 990px){
-  .inspiration {
+// .inspiration {
+//   border: 1px solid black;
+//   box-shadow: 1em 0 .4em vars.$colorTitle;
+//   margin: vars.$gutter * 2 ;
+//   padding: vars.$gutter;
+//   display: flex;
+//   flex-direction: column;
+//   &__select {
+//     width: 50%;
+//     margin: vars.$gutter;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//   &__paragraphe {
+//     text-align: left;
+//     width: 90%;
+//   }
+//   &__title {
+//     padding-top: vars.$gutter;
+//   }
+// }
+// @media screen and (min-width: 990px){
+//   .inspiration {
     
-    &__paragraphe {
-      text-align: center;
-      padding-top: vars.$gutter;
-      margin-left: auto;
-      margin-right: auto;
+//     &__paragraphe {
+//       text-align: center;
+//       padding-top: vars.$gutter;
+//       margin-left: auto;
+//       margin-right: auto;
       
-    }
-    &__title {
-      padding-top: vars.$gutter;
+//     }
+//     &__title {
+//       padding-top: vars.$gutter;
       
-    }
-  }  
-}
-@media screen and (min-width: 1824px){
-  .inspiration{
-    font-size: x-large;
+//     }
+//   }  
+// }
+// @media screen and (min-width: 1824px){
+//   .inspiration{
+//     font-size: x-large;
   
-  &__select{
-    font-size: x-large;
-  }
-}
-}
+//   &__select{
+//     font-size: x-large;
+//   }
+// }
+// }

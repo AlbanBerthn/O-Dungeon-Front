@@ -1,52 +1,52 @@
-@use '../../styles/vars';
+// @use '../../styles/vars';
 
-.creator {
-  &__choices--content{
-     background-image: url(../../assets/images/kisspng-paper-parchment-papyrus-writing-notebook-5b0f7246a6c8e7.9619406815277389506832.png);
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: 200vw;
-  }
-}
+// .creator {
+//   &__choices--content{
+//      background-image: url(../../assets/images/kisspng-paper-parchment-papyrus-writing-notebook-5b0f7246a6c8e7.9619406815277389506832.png);
+//      background-attachment: fixed;
+//      background-position: center;
+//      background-repeat: no-repeat;
+//      background-size: 200vw;
+//   }
+// }
 
-.caracteristics {
-  text-align: center;
-  &__attack {
-    border: 1px solid vars.$colorTitle;
-  padding: vars.$gutter;
-  margin: vars.$gutter;
-  }
-  &__capacities {
-    border: 1px solid vars.$colorTitle;
-  padding: vars.$gutter;
-  margin: vars.$gutter;
-    &--checkbox {
-      display: flex;
-      justify-content: space-around;
+// .caracteristics {
+//   text-align: center;
+//   &__attack {
+//     border: 1px solid vars.$colorTitle;
+//   padding: vars.$gutter;
+//   margin: vars.$gutter;
+//   }
+//   &__capacities {
+//     border: 1px solid vars.$colorTitle;
+//   padding: vars.$gutter;
+//   margin: vars.$gutter;
+//     &--checkbox {
+//       display: flex;
+//       justify-content: space-around;
 
-    }
-  }
+//     }
+//   }
  
-}
+// }
 
-@media screen and (min-width: 990px){
-  .creator {
-    margin-top: vars.$gutter * 3;
-    &__choices--content{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 130vw;
-    background-image: url(../../assets/images/kisspng-paper-parchment-papyrus-writing-notebook-5b0f7246a6c8e7.9619406815277389506832.png)
-  }
-  }
-}
-@media screen and (min-width: 1824px){
-  .traits{
-    font-size: x-large;  
-}
-}
+// @media screen and (min-width: 990px){
+//   .creator {
+//     margin-top: vars.$gutter * 3;
+//     &__choices--content{
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: 130vw;
+//     background-image: url(../../assets/images/kisspng-paper-parchment-papyrus-writing-notebook-5b0f7246a6c8e7.9619406815277389506832.png)
+//   }
+//   }
+// }
+// @media screen and (min-width: 1824px){
+//   .traits{
+//     font-size: x-large;  
+// }
+// }
 
 
 
