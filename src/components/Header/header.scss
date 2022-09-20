@@ -1,24 +1,25 @@
-// .header{
-//   width: 100vw;
-//   height: 10vh;
-//   background-image: url(../../assets/images/logo-mobile.png);
-//   background-position: center;
-//   margin-top: 3vw;
-//   margin-bottom: 3vw;
+.header{
+  // width: 100vw;
+  // height: 10vh;
+  background-image: url(../../assets/images/logo-mobile.png);
+  background-position: center;
+  background-color: #6F0202;
+  // margin-top: 3vw;
+  // margin-bottom: 3vw;
 
 
-// }
-// @media screen and (min-width: 1024px){
-//   .header{
-//     width: 100%;
-//     position: relative;
-//     height: 15vh;
-//     margin-top: 0;
-//     // width: 100vw;
-//     background-image: url('../../assets/images/logo-definitive.png');
-//     background-repeat: no-repeat;
-//     background-color: #AEED8A;
+}
+@media screen and (min-width: 1024px){
+  .header{
+    // width: 100%;
+    // position: relative;
+    // height: 15vh;
+    margin-top: 0;
+    // width: 100vw;
+    // background-image: url('../../assets/images/logo-definitive.png');
+    background-repeat: no-repeat;
+    background-color: #6F0202;
   
-//   }
-// }
+  }
+}
 
